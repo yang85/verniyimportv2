@@ -25,24 +25,9 @@ const Home = () => {
                 direction="row"
                 justify="center"
                 alignItems="center">
-                    Enter a KeyWord
-                    <TextField />
+                    <TextField placeholder="Enter a KeyWord" />
                     <Button variant="contained" color="primary">Submit</Button>
                 </Grid>
-            </Grid>
-            <Grid  
-                container
-                direction="row"
-                justify="center"
-                alignItems="center"
-            >
-                <Grid container>
-                    This is section 1
-                </Grid>
-                <Grid container>
-                    This is section 2
-                </Grid>
-    
             </Grid>
         </Container>
         )
